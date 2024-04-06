@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Landingpage from './components/Landingpage';
 import Slidingtext from './components/Slidingtext'
+import About from './components/About'
+import Eyes from './components/Eyes';
 
 const App = () => {
   return (
@@ -9,7 +11,9 @@ const App = () => {
 
       <Navbar />
       <Landingpage />
-      <Slidingtext/>
+      <Slidingtext />
+      <About />
+      <Eyes />
     </div>
   )
 }
