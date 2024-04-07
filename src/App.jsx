@@ -4,6 +4,7 @@ import Landingpage from './components/Landingpage';
 import Slidingtext from './components/Slidingtext'
 import About from './components/About'
 import Eyes from './components/Eyes';
+import Feature from './components/Feature';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Slidingtext />
       <About />
       <Eyes />
+      <Feature/>
     </div>
   )
 }
